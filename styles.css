@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    background-color: #dfdfdf;
+}
+
+.full{
+    display: flex;
+    position: relative;
+}
+
+.left{
+    margin: 0;
+    height: 912px;
+    width: 17%;
+    background-color: #393939;
+}
+
+.left img{
+    display: block;
+    margin: 15px auto 0 auto;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.left h3{
+    color: white;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.left hr{
+    background-color: #434343;
+    border: none;
+    height: 2px;
+}
+
+#insight{
+    background-color: #393939;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    padding-left: 17px;
+    height: 60px;
+    border-left: none;
+    border: 2px solid #434343;
+}
+
+.heading{
+    display: flex;
+    margin: 0;
+    background-color: #005e9e;
+    width: 83%;
+    height: 60px;
+}
+
+.heading h2{
+    margin: 15px;
+    color: white;
+}
+
+#cost{
+    background-color: #005e9e;
+    color: white;
+    font-size: 17px;
+    padding: 0 8px 0 14px;
+    height: 40px;
+    margin-top: 10px;
+    border: 2px solid lightblue;
+}
+
+.headingrt{
+    display: flex;
+    margin-left: 950px;
+}
+
+.headingrt h3{
+    color: white;
+}
+
+.headingrt img{
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+}
+
+.content{
+    position: absolute;
+    top: 60px;
+    left: 17%;
+}
+
+.users{
+    display: flex;
+}
+
+h1{
+    margin: 20px;
+}
+
+#search{
+    margin-top: 15px;
+    margin-left: 50px;
+    height: 50px;
+    width: 270px;
+    border: 1px solid #005e9e;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0;
+}
+
+#sim{
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#adduser{
+    height: 50px;
+    width: 150px;
+    color: #005e9e;
+    border: 2px solid #005e9e;
+    margin-top: 15px;
+    margin-left: 920px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.first, .second, .third{
+    display: flex;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    width: 490px;
+    display: flex;
+}
+
+.profile{
+    width: 200px;
+    height: 200px;
+}
+
+.notflex h3{
+    margin: 0 20px;
+    background-color: #393939;
+    width: 470px;
+    font-size: 25px;
+    color: white;
+    padding-left: 20px;
+}
